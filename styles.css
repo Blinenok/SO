@@ -63,7 +63,7 @@ body {
 .text-section {
 	display: flex;
 	flex-direction: column;
-	white-space: nowrap;
+	max-width: 749px;
 }
 
 h1 {
@@ -205,11 +205,11 @@ p {
 
 	h1 {
 		font-size: 2em;
-	}
+}
 
-	p {
-			font-size: 1em;
-	}
+p {
+		font-size: 1.5em;
+}
 
 	.inovations { 
 		margin: 0;
@@ -239,14 +239,10 @@ p {
 			gap: 20px;
 	}
 
-
-	h1 {
-			font-size: 2em;
+	.text-section {
+		white-space: wrap;
 	}
 
-	p {
-			font-size: 1em;
-	}
 
 	.overlay-text {
 		font-size: 1.2em;
@@ -273,7 +269,7 @@ p {
 	}
 
 	p {
-			font-size: 0.85em;
+			font-size: 1.2em;
 	}
 
 	.date {
@@ -282,11 +278,11 @@ p {
 
 @media (max-width: 500px) {
 	h1 {
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 
 	p {
-			font-size: 0.65em;
+			font-size: 0.8em;
 	}
 
 	.overlay-text p {
@@ -306,7 +302,7 @@ p {
 	}
 
 	p {
-			font-size: 7px;
+			font-size: 0.5em;
 	}
 
 	.overlay-text h1 {
